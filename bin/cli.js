@@ -75,11 +75,11 @@ const startScraper = async argv => {
 
 yargs
     .usage('Usage: $0 <command> [options]')
-    .example(`$0 user USERNAME -d -n 100 --session sid_tt=dae32131231`)
+    .example(`$0 user bebellyandrade -d -n 100 --session sid_tt=dae32131231`)
     .example(`$0 trend -d -n 100 --session sid_tt=dae32131231`)
     .example(`$0 hashtag HASHTAG_NAME -d -n 100 --session sid_tt=dae32131231`)
     .example(`$0 music MUSIC_ID -d -n 50 --session sid_tt=dae32131231`)
-    .example(`$0 video https://www.tiktok.com/@tiktok/video/6807491984882765062 -d`)
+    .example(`$0 video www.tiktok.com/@bebellyandrade/video/7266227404643880197 -d`)
     .example(`$0 history`)
     .example(`$0 history -r user:bob`)
     .example(`$0 history -r all`)
